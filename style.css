@@ -125,7 +125,7 @@ header #twitter-icon {
 
 /* HOME PAGE STYLING */
 #jumbotron {
-	background-image: url("../hero1.jpg");
+	background-image: url("hero1.jpg");
 	background-size: covpxer;
 	background-color: #66615a;  /*temporary brown so text shows up */
 	height: 750px;
