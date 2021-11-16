@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Pencil No.2 Purchase</title>
+
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/grid.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>
+    
+    <header class="container"> <!-- we want to use good sematic syntax, so we use header instead of the generic <div> -->
+      <div class="row"> <!-- this is here to contain everything in the row. we will create a "row" class for this -->
+         <div class="col-4 offset-1"> 
+          <a href="index.html"> 
+            <img src="images/logo-53.png">
+          </a>
+        </div>
+        <nav class="col-7">
+          <ul>
+            <li><a href="interior.html">Think</a></li>
+             <li><a href="#">Paper</a></li>
+             <li><a href="#">Pencil</a></li>
+            <li><a href="#">Mix</a></li>
+            <li><a href="product.html">Shop</a></li>
+            <li id="download"><a href="#">Download</a></li>
+            <!-- the "_blank" below here means the link open in a new window -->
+             <li id="facebook-icon" class="socials"><a href="http://www.facebook.com" target="_blank"><img src="images/icon-facebook.png" alt="Facebook"></a></li>
+            <li id="twitter-icon" class="socials"><a href="http://www.twitter.com" target="_blank"><img src="images/icon-twitter.png" alt="Twitter"></a></li>
+          </ul>
+        </nav>
+       </div>
+    </header>
+
+ 
+
+    <section class="container"> <!-- Purchase Portal Section -->
+      <div class="row"> <!-- Left title -->
+        <div class="col-6" id="purchase"> <!-- Photo  -->
+          <!-- How do I move this photo to the right? using columns distorts the picture. I just used offset. This ok?-->
+          <h2>Pencil No.2</h2>
+          <img src="images/53Pencil.jpeg" alt="53Pencil">
+        </div>
+        <div class="col-6"> <!-- Purchase options/description -->
+            <h1>Buy Pencil No.2</h1>
+            <h2 id="alignLeft"><span>Get 10% off when you present your student ID at checkout.</span></h2>
+            <h2 id="alignLeft">$130.00</h2>
+            <p>Experience thinking with your hands. Pencil No.2 features smooth faux wood finish that feels silky betwqeen fingers, but offers enough grip to maintain proper writing posture. Pencil No.2 comes in 3 shades. Dimentions: 80mm X 5mm X 9mm. Weight: 20 g. Plastic exterior.</p>
+            <h2 id="alignLeft">Choose a shade:</h2>
+            <div class="row"> 
+              <div class="color">
+                <h4>Wood</h4>
+                <img src="images/WoodTexture.png"> <!--color swatches -->
+              </div>
+              <div class="color">
+                <h4>Black</h4>
+                <img src="images/BlackTexture.png"> <!--color swatches -->
+              </div>
+              <div class="color">
+                <h4>White</h4>
+                <img src="images/WhiteTexture.png"> <!--color swatches -->
+              </div>
+          </div>
+          <pill id="Cart"><a href="#">Add to Cart</a></pill>
+      </div>
+    </section>
+
+
+
+    <div class="row" id="background">
+        <section class="container">
+          <div class="row">
+            <div class="title">
+              <h1 id="WhiteText">What's in the Box?</h1>
+            </div>
+          </div>
+          <div class="row"> <!--First row for the top two images-->
+            <div class="Set">
+              <div class="overlay">
+                <h3 class="text">Pencil No.2</h3>
+              </div>
+              <img src="images/Pencil.png" alt="Pencil">
+            </div>
+            <div class="Set">
+              <div class="overlay">
+                <h3 class="text">Cleaning Cloth</h3>
+              </div>
+              <img src="images/Cloth.png" alt="Cloth">
+            </div>
+          </div> 
+          <div class="row"> <!--Second row for the bottom two images-->
+            <div class="Set">
+              <div class="overlay">
+                <h3 class="text">Extra Pencil Tips</h3>
+              </div>
+              <img src="images/Tips.png" alt="Tips">
+            </div>
+            <div class="Set">
+              <div class="overlay">
+                <h3 class="text">Skin</h3>
+              </div>
+              <img src="images/Skin.png" alt="Skin">
+            </div>
+          </div>
+        </section>
+    </div>
+
+
+
+    <section class="container"> <!-- You Might Also Like -->
+      <div class="row">
+        <div class="title">
+          <h1>You Might Also Like</h1>
+        </div>
+      </div>
+      <div class="row" id="YouMightLike"> <!--This div contains all 3 options -->
+        <div class="col-3 YML"> <!-- Each of the options has it's own div for title, photo, and description -->
+          <h2>Eraser</h2>
+          <img src="images/Eraser.png" alt="Eraser">
+          <p>Seamlessly remove unwanted marks from your work with only a swipe. Easy wireless charging and Eraser features Kiss to Pair (TM).</p>
+        </div>
+        <div class="col-3 YML">
+          <h2>Sharpener</h2>
+          <img src="images/Sharpener.png" alt="Sharpener">
+          <p>Never worry about dull marks again with Sharpener. It’s compact size and light weight make it easy to take Sharpener with you wherever you go.</p>
+        </div>
+        <div class="col-3 YML">
+          <h2>Pen</h2>
+          <img src="images/Pen.png" alt="Pen">
+          <p>Want to take your mark-making game to the next level? Give Pen a try. With new and exclusive strokes and inks, perfect for making an ink-pact. </p>
+        </div>
+        <div class="col-3 YML">
+          <h2>Marker</h2>
+          <img src="images/Marker.png" alt="Marker">
+          <p>For thicker strokes, bolder colors, and stronger marks. Introducing "Marker." An unecessary tool that is fun to have anyways. Available in red, black, and brown.</p>
+        </div>
+      </div>
+    </section>
+
+
+    <footer class="container-fluid"> <!-- Last is the footer. To keep things simple, make sure this section is at the same level of indent as the header -->
+      <div class="container">
+        <div class="row">
+          <div class="col-3">
+            <img src="images/logo-53-footer.png" alt="Pencil 53 logo">
+          </div>
+          <nav class="col-2"> <!-- There are 4 columns of navigation links -->
+            <ul>
+              <li><a href="#">Think</a></li>
+              <li><a href="#">Paper</a></li>
+              <li><a href="#">Pencil</a></li>
+              <li><a href="#">Mix</a></li>
+              <li><a href="#">Book</a></li>
+            </ul>
+          </nav>
+          <nav class="col-2">
+            <ul>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Making</a></li>
+              <li><a href="#">Made with paper</a></li>
+            </ul>
+          </nav>
+          <nav class="col-2">
+            <ul>
+              <li><a href="#">Shop</a></li>
+              <li><a href="#">Support</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>  
+          <nav class="col-2">
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Jobs</a></li>
+              <li><a href="#">Press</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="row"> <!-- include a section for the copyright info -->
+          <section class="col-12 copyright">
+            <p>
+              Made in New York and Seattle. &copy; 2015 Fifty Three, Inc.
+              <a href="#">Terms</a> 
+              <a href="#">Privacy</a>
+              <a href="#">Legal</a>
+              <a href="#">Security</a>
+            </p>
+          </section>
+        </div>
+      </div>
+    </footer>
+
+
+  </body>
+</html>
